@@ -1,0 +1,134 @@
+.header-color {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fdc830,
+    #f37335
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fdc830,
+    #f37335
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-grid {
+  background: #fceabb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #fceabb,
+    #f8b500
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #fceabb,
+    #f8b500
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: lightyellow;
+  letter-spacing: 3px;
+}
+
+.banner-text hr {
+  border-top: 5px dotted lightyellow;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: lightyellow;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: lightyellow;
+  font-size: 5em;
+  padding: 8px;
+}
+.resume-right-col {
+  background: #27221f;
+  color: lightyellow;
+  padding: 2em;
+  border-radius: 10px;
+}
+.aboutme {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+  margin: auto;
+}
+.aboutme p {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.contact-body,
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+  color: gray;
+  margin-bottom: 20px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  font-family: "Anton", sans-serif;
+}
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  color: lavender;
+  font-size: 25px;
+  font-display: auto;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+  color: lightyellow;
+  text-shadow: 3px 3px 8px rgb(54, 20, 179);
+}
+
+img {
+  height: 250px;
+  border-radius: 25px;
+}
+h2 {
+  letter-spacing: 3px;
+  color: lightyellow;
+  text-shadow: 2px 2px 6px red;
+}
+h5 {
+  color: lightyellow;
+}
