@@ -12,42 +12,42 @@ class Resume extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <h3 style={{ paddingTop: "2em", color: "lightyellow", fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"35px"}}>Paris</h3>              
+              <h3 style={{ paddingTop: "2em", color: "lightyellow", textShadow: "2px 2px 2px black", fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"35px"}}>Paris</h3>              
               <img
-                src="/images/paris-profile.jpg"
+                src="/images/paris-toy-couch.jpg"
                 alt=""
-                style={{ height: "350px", border:"3px solid black" }}                
+                style={{ height: "350px", border:"3px solid aqua" }}                
               />
             </div>
 
-            <h4 style={{ color: "lightyellow", fontFamily: "Lobster, cursive", fontSize:"30px"}}>Cute Dog</h4>
+            <h4 style={{ color: "lightyellow", textShadow: "2px 2px 2px black", fontFamily: "Lobster, cursive", fontSize:"30px"}}>Cute Dog</h4>
             <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
             <p style={{ fontSize:"20px"}}>
               Hello, my name is Paris. As a web sensation, I will be doing 
-              my absolute best to give you the most cute acts from my website I will 
-              entertain you because I am cute and cuddly.
+              my absolute best to give you the cutest pictures for my website
+              because I am so adventurous, cute and cuddly.
             </p>
             <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>ADDRESS</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", textShadow: "2px 2px 2px black", letterSpacing:"2px", fontSize:"30px"}}>ADDRESS</h5>  
 
             <p style={{ color: "black", fontSize: "25px"}}>1 Hacker Way Menlo Park, 94025</p>
 
             <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>PHONE</h5> 
+            <h5 style={{fontFamily: "Lobster, cursive", textShadow: "2px 2px 2px black", letterSpacing:"2px", fontSize:"30px"}}>PHONE</h5> 
 
             <p style={{ color: "black", fontSize: "25px"}}>0402 123 456</p>
 
             <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>EMAIL</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", textShadow: "2px 2px 2px black", letterSpacing:"2px", fontSize:"30px"}}>EMAIL</h5>  
 
             <p style={{ color: "black", fontSize: "25px"}}>paris@email.com</p>
 
             <hr style={{ borderTop: "3px solid aqua", width: "100%" }} />
 
-            <h5 style={{fontFamily: "Lobster, cursive", letterSpacing:"2px", fontSize:"30px"}}>WEB</h5>  
+            <h5 style={{fontFamily: "Lobster, cursive", textShadow: "2px 2px 2px black", letterSpacing:"2px", fontSize:"30px"}}>WEB</h5>  
 
             <p style={{ color: "black", fontSize: "25px"}}>paristhedog.com</p>
             

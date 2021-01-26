@@ -48,15 +48,15 @@ toggleCategories() {
 } else if(this.state.activeTab === 2){
     return (
         <Card shadow={5} style={{minWidth: '450px', margin: 'auto'}}>
-        <CardTitle style={{color: 'black', height: '200px', background: 'url(./images/quiz.png) center / cover'}}></CardTitle>
+        <CardTitle style={{color: 'black', height: '350px', background: 'url(./images/paris-computer.jpg) center / cover'}}></CardTitle>
         <CardText>
-        This is my new version of the Quiz.
+        This is me on the laptop conversing with my followers.
         </CardText>
         <CardActions border>       
         <Button colored
                 style={{color: "black"}}
                 target="_blank"
-                href="https://damian545.github.io/quizwithtimer/">Try It Yourself</Button>
+                href=""></Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
         <IconButton name="" />
@@ -161,7 +161,7 @@ toggleCategories() {
                 <Tabs style={{ backgroundColor: "gray"}} activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                  <Tab style={{ color: "aqua"}}>Waiting for some toast</Tab>
                  <Tab style={{ color: "aqua"}}>Waiting for humans to finish dinner</Tab>
-                 <Tab style={{ color: "aqua"}}></Tab>
+                 <Tab style={{ color: "aqua"}}>I'm a laptop dog</Tab>
                  <Tab style={{ color: "aqua"}}></Tab>
                  <Tab style={{ color: "aqua"}}></Tab>
                  <Tab style={{ color: "aqua"}}></Tab>

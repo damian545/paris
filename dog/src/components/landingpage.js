@@ -9,17 +9,17 @@ class Landing extends Component {
 <Grid className="landing-grid">
 <Cell col={12}>
     <img
-    src="./images/paris-profile.jpg"
+    src="./images/paris-computer.jpg"
     alt=""
     className="img"
-    style={{border:"1px solid aqua"}}
+    style={{border:"3px solid aqua", height: "350px", width:"300px" }}
     />
     <div className="banner-text">
-        <h1 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Paris, The Cutest Maltese Chihuahua In The World</h1>
+        <h1 style={{fontFamily: "Lobster, cursive", fontSize: "73px"}}>Paris, The Cutest Maltese Chihuahua In The World!!</h1>
 
         <hr/>
 
-        <p>TOYS | EATING | LICKING | SLEEPING </p>
+        <p>PLAYING | EATING | LICKING | SLEEPING </p>
 
         <div className="social-links">            
             <a href="https://google.com">
